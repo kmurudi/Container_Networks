@@ -1,6 +1,8 @@
 # Container_Networks
 Python scripting and Shell scripting to help provide automated network of Docker container.
 
+Base Machine used for running scripts and set up -> Ubuntu 16.04 LTS
+
 So this project is about giving the user few options to give input as a list of containers and the type of network they want the containers to be connected in.
 
 # Steps for using it are as follows ->
