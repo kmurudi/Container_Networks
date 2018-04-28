@@ -14,7 +14,7 @@ $ sudo apt-get install docker.io
 
 Create a Docker image - 
 ```
-4 sudo docker build -t fw_ubuntu .
+$ sudo docker build -t fw_ubuntu .
 ```
 ## 3) Run the script [create_network.py](https://github.com/kmurudi/Container_Networks/blob/master/create_network.py) which is an interactive Python script. 
 ```
@@ -35,9 +35,9 @@ $ python create_networks.py
 
 ![Topology of the Automated network for GRE tunneling option](https://github.com/kmurudi/Container_Networks/blob/master/topology.jpg)
 
-The user can connect CS1, CS2, CS3, CS4 - customer containers to the GRE tunnel network - which is built between SC1 and SC2. If the need is to only create a tunnel between two containers - it is an easy task just have to add rules on both ends, however it is difficult to understand if we do not know the underlay network.
+**The user can connect CS1, CS2, CS3, CS4 - customer containers to the GRE tunnel network - which is built between SC1 and SC2. If the need is to only create a tunnel between two containers - it is an easy task just have to add rules on both ends, however it is difficult to understand if we do not know the underlay network.**
 
-Thanks I hope you liked this demo! :) Please give it a star if you liked it!
+**_Thanks I hope you liked this demo! :) Please give it a star if you liked it!_**
 
 
 
